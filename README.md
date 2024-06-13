@@ -25,6 +25,7 @@
 ℹ️This project will be synchronously updated on the official [TencentQQGYLab](https://github.com/TencentQQGYLab/AppAgent) Github Page.
 
 ## 📝 Changelog
+- __[2024.6.13]__: `qwen-vl-max` (通义千问-VL)  replaced with  `qwen-vl-plus` (通义千问-VL-增强版).
 - __[2024.2.8]__: Added `qwen-vl-max` (通义千问-VL) as an alternative multi-modal model. The model is currently free to use but has a relatively poorer performance compared with GPT-4V.
 - __[2024.1.31]__: Released the [evaluation benchmark](https://github.com/mnotgod96/AppAgent/blob/main/assets/testset.md) used during our testing of AppAgent
 - __[2024.1.2]__: 🔥Added an optional method for the agent to bring up a grid overlay on the screen to **tap/swipe anywhere** on the screen.
@@ -58,7 +59,7 @@ https://github.com/mnotgod96/AppAgent/assets/27103154/71603333-274c-46ed-8381-2f
 
 ## 🚀 Quick Start
 
-This section will guide you on how to quickly use `gpt-4-vision-preview` (or `qwen-vl-max`) as an agent to complete specific tasks for you on
+This section will guide you on how to quickly use `gpt-4-vision-preview` (or `qwen-vl-plus`) as an agent to complete specific tasks for you on
 your Android app.
 
 ### ⚙️ Step 1. Prerequisites
@@ -101,7 +102,7 @@ Other parameters in `config.yaml` are well commented. Modify them as you need.
 
 > Be aware that GPT-4V is not free. Each request/response pair involved in this project costs around $0.03. Use it wisely.
 
-You can also try `qwen-vl-max` (通义千问-VL) as the alternative multi-modal model to power the AppAgent. The model is currently 
+You can also try `qwen-vl-plus` (通义千问-VL) as the alternative multi-modal model to power the AppAgent. The model is currently 
 free to use but its performance in the context of AppAgent is poorer compared with GPT-4V.
 
 To use it, you should create an Alibaba Cloud account and [create a Dashscope API key](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key?spm=a2c4g.11186623.0.i1) to fill in the `DASHSCOPE_API_KEY` field 
